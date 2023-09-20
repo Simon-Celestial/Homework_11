@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+</body>
+<script>
+
+    "use strict"
+    
+    let userAge = prompt("Enter your age");
+    if (isNaN(userAge) || userAge.length > 2 || userAge < 0 ) {
+        alert("Do you want to trick me? Enter correct age!")
+    } else if ( userAge < 18 ) {
+        alert("You are under 18 years old, you shall not pass!")
+    } else {
+        alert("Now you can drink Vodka and smoke cigarettes! Congratulations!")
+    }
+        
+</script>
+
+</html>
